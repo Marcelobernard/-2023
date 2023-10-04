@@ -36,12 +36,12 @@ button:hover {
 }
 
 #up-button {
-    margin-left: 290px;
-    margin-top: 700px;
+    margin-left: 285px;
+    margin-top: 500px;
 }
 
 #left-button {
-    margin-left: 180px;
+    margin-left: 175px;
 }
 
 #right-button {
@@ -49,5 +49,5 @@ button:hover {
 }
 
 #down-button {
-    margin-left: 290px;
+    margin-left: 280px;
 }
