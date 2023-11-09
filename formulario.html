@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=no">
+    <title>Jogos</title>
+    <link rel="stylesheet" href="formulario.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+  <video id="background-video" autoplay loop muted>
+    <source src="movie/Background.mp4" type="video/mp4">
+  </video>
+    <header>
+        <div class="logotipo">
+            <img src="logo.png" style="width: 60px;" alt="LOGO">
+        </div>
+        <div id="navegacao">
+            <ul class="lista-nao-ordenada">
+                <li class="item-de-lista"><a href="index.html">Início</a></li>
+                <li class="item-de-lista"><a href="sobre.html">Sobre</a></li>
+                <li class="item-de-lista"><a href="formulario.html">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+    <form action="http://localhost/site/processar.php" method="post" class="formulario" style="margin-top: 70px;">
+        <h1 id="titulo_contato">Entre em Contato</h1>
+        <br>
+        <label for="nome" id="titulos">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email" id="titulos">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem" id="titulos">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <div class="espaço-reservado"></div>
+    <div class="espaço-reservado"></div>
+    <footer class="fundo">
+      <div>
+          <h1 class="direitos">© 2023 Spoiler Alert Game - Todos os direitos reservados.</h1>
+          <p class="informaçoes-academicas">Spoiler Alert Game - Projeto acadêmico da Estácio. | Curso: Desenvolvimento Web - HTML, CSS, JS e PHP.</p>
+      </div>
+  </footer>
+</body>
+</html>
