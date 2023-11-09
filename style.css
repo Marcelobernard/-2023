@@ -8,7 +8,7 @@ body {
 
 body::before {
   content: "";
-  background-image: url("background.mp4");
+  background-image: url("Background.mp4");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
